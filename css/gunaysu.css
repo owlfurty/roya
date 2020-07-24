@@ -2629,6 +2629,7 @@ figcaption {
 }
 
 .label.inside-label {
+  display: none;
   position: absolute;
   left: 0%;
   top: 0%;
@@ -2657,6 +2658,7 @@ figcaption {
 }
 
 .label.black-label.sale-label {
+  display: none;
   position: absolute;
   left: auto;
   top: 0%;
@@ -2928,6 +2930,12 @@ figcaption {
 
 .product-image.product-image-size-m {
   height: 370px;
+} 
+
+@media screen and (max-width: 991px) { 
+  .product-image.product-image-size-m {
+    height: 540px;
+  } 
 }
 
 .product-image.product-image-size-l {
